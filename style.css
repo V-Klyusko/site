@@ -1,0 +1,138 @@
+/*Body*/
+
+body {
+    margin: 0;
+    font-family: 'Raleway', 'sans-serif';
+    font-size: 14px;
+
+    background-color: #868295;
+    color: #000;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+
+
+
+/*Container*/
+
+.container {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+/*Header*/
+
+.header {
+    background-color: #868295;
+}
+
+
+
+.header__inner {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+
+    border-bottom: 2.5px solid #1a1a1a;
+
+}
+
+
+.nav {
+
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+
+.nav__link {
+    margin-left: 25px;
+    color: #141414;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+
+    opacity: 1;
+    transition: opacity .1s linear;
+    color: #000;
+    transition: color .1s linear;
+}
+
+
+
+
+/*Intro*/
+
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 750px;
+	padding-top: 100px;
+	background: #F0F0F0 url("img/intro.jpg") center no-repeat;
+   /* background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/confectionary.png); /*some picture from other site*/
+}
+.intro_inner{
+	width: 100%;
+	max-width: 970px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.intro_title{
+	margin: 0 0 30px;
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 65px;
+	line-height: 1.1; /*коэф относительно фонт-сайза*/
+	color: #868295;
+	font-weight: 700;
+	text-transform:  uppercase;
+}
+
+.intro_subtitle{
+    font-family: 'Raleway', 'sans-serif';
+	font-size: 22px;
+	color: #868295;
+	line-height: 1.5;
+	font-weight: 400;
+	margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
